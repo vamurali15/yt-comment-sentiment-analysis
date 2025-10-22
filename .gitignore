@@ -1,0 +1,6 @@
+.terraform/
+yt-comments-gcp/infra/envs/dev/variables.tf
+yt-comments-gcp/infra/envs/dev/terraform.tfstate
+yt-comments-gcp/infra/envs/dev/terraform.tfstate.backup
+yt-comments-gcp/infra/envs/dev/tfplan
+.terraform.lock.hcl
