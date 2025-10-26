@@ -1,0 +1,4 @@
+channel_id: "UCjGVPGkLwMdu8LuR637tcNA" 
+max_results: 1000
+gcs_bucket:  "yt-raw-comments-dna-poc-training"
+gcs_path: "youtube_comments/output_spice_eats.json"

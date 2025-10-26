@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: yt_comments_pipeline
+Version: 0.1
+Requires-Dist: apache-beam[gcp]==2.49.0
+Requires-Dist: google-cloud-pubsub==3.16.2
+Requires-Dist: google-cloud-bigquery==3.11.0
+Requires-Dist: PyYAML==6.1
+Dynamic: requires-dist

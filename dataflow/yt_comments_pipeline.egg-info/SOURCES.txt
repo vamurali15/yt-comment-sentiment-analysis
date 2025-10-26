@@ -1,0 +1,7 @@
+setup.py
+yt_comments_pipeline.egg-info/PKG-INFO
+yt_comments_pipeline.egg-info/SOURCES.txt
+yt_comments_pipeline.egg-info/dependency_links.txt
+yt_comments_pipeline.egg-info/entry_points.txt
+yt_comments_pipeline.egg-info/requires.txt
+yt_comments_pipeline.egg-info/top_level.txt

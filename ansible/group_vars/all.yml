@@ -1,0 +1,4 @@
+project_id: "dna-poc-training"
+region: "us-central1"
+cf_sa_email: "517100079961-compute@developer.gserviceaccount.com"
+bucket: "yt-raw-comments-dna-poc-training"
