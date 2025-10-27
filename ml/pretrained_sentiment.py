@@ -8,8 +8,8 @@ def main():
     # Fetch latest comments
     query = """
     SELECT comment_id, comment_text
-    FROM `dna-poc-training.youtube_comments.comments`
-    LIMIT 100
+    FROM `dna-poc-training.youtube_comments.comments1`
+    LIMIT 10000
     """
     comments = bq_client.query(query).result()
 
@@ -29,7 +29,7 @@ def main():
         })
 
     # Write results back to BigQuery
-    table_id = "dna-poc-training.youtube_comments.sentiment"
+    table_id = "dna-poc-training.youtube_comments.sentiment1"
     bq_client.insert_rows_json(table_id, rows_to_insert)
     print(f"Inserted {len(rows_to_insert)} rows with sentiment scores")
 
