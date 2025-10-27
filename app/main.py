@@ -14,7 +14,7 @@ def initialize_youtube_client():
         print("[WARNING] googleapiclient not installed; skipping actual API call.")
         return None
     # Use the YouTube API key directly
-    return build("youtube", "v3", developerKey="AIzaSyAMJHhB2C9EQq-F2Cm-_ULWEWny7n40gSM")
+    return build("youtube", "v3", developerKey="API_KEY_HERE")
 
 
 def upload_to_gcs(bucket_name, destination_blob, local_file_path):

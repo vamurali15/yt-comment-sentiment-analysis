@@ -1,5 +1,5 @@
 project_id: "dna-poc-training"
 bucket: "yt-raw-comments-dna-poc-training"
 bq_dataset: "youtube_comments"
-bq_table: "comments"
+bq_table: "comments1"
 input_path: "gs://yt-raw-comments-dna-poc-training/youtube_comments/output_spice_eats.json"
